@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "#about" },
+  { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Professional Experience", link: "#experience" },
@@ -14,7 +15,8 @@ export const gridItems = [
     description: "My Education",
     major: "B.A in Computer Science,",
     honor: "Dean's List Award",
-    courseWork: "Coursework: DSA, OOP, Linear Algebra, Probability and Statistics, Software Engineering, Web Application Development, DataScience Applications and Tools, Machine Learning, Theory of Computation, Databases, Full-Stack Development, Computer Systems",
+    courseWork:
+      "Coursework: DSA, OOP, Linear Algebra, Probability and Statistics, Software Engineering, Web Application Development, DataScience Applications and Tools, Machine Learning, Theory of Computation, Databases, Full-Stack Development, Computer Systems",
     date: "Expected May 2025",
     className: "lg:col-span-5 md:col-span-5 md:row-span-3",
     imgClassName: "",

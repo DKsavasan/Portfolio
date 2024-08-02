@@ -6,7 +6,7 @@ import { MdDateRange } from "react-icons/md";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full" id="experience">
+    <div className="pt-20 w-full" id="experience">
       <h1 className="heading mb-12">
         My <span className="text-purple">work experience</span>
       </h1>
