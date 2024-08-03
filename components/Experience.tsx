@@ -7,13 +7,13 @@ import { MdDateRange } from "react-icons/md";
 const Experience = () => {
   return (
     <div className="pt-20 w-full" id="experience">
-      <h1 className="heading mb-12">
-        My <span className="text-purple">work experience</span>
+      <h1 className="bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-center  tracking-tight text-transparent heading mb-20 pb-5">
+        My <span className="text-orange">Work Experiences</span>
       </h1>
 
       <div className="relative w-full max-w-6xl mx-auto">
         {/* Vertical line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-purple"></div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-orange"></div>
 
         <div className="space-y-10">
           {workExperience.map((card) => (
@@ -28,12 +28,12 @@ const Experience = () => {
                   duration={Math.floor(Math.random() * 10000) + 10000}
                   borderRadius="1.75rem"
                   style={{
-                    background: "rgb(4,7,29)",
+                    background: "#161618",
                     backgroundImage:
-                      "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                      "linear-gradient(90deg, #161618 0%, #161618 100%)",
                     borderRadius: `calc(1.75rem * 0.96)`,
                   }}
-                  className="w-full text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                  className="w-full text-black dark:text-white border-neutral-200 dark:border-white/[0.2]"
                 >
                   <div className="flex flex-col p-6 gap-4">
                     <div className="flex flex-row items-center">
@@ -78,7 +78,7 @@ const Experience = () => {
                 </Button>
               </div>
               {/* Timeline dot */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-purple rounded-full mt-6"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange rounded-full mt-6"></div>
             </div>
           ))}
         </div>

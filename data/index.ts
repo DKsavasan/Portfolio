@@ -3,9 +3,9 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Refrences", link: "#refrences" },
   { name: "Professional Experience", link: "#experience" },
-  { name: "Contact", link: "#contact" },
+  { name: "Contact Me", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -27,7 +27,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I believe in continous growth and learning. The key to success is maintaining a positive and supportive work environment.",
+      "I embrace continuous growth and learning, driven by curiosity. I believe success is cultivated in a inclusive and supportive environment, where collaboration flourishes and innovation thrives. With a commitment to personal and collective well-being, I aim to create spaces where creativity and dedication leads to meaningful impact.",
     description: "What I value",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "",
@@ -95,39 +95,22 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile.svg",
+    quote: "Coming Soon...",
+    name: "Name Lastname",
+    title: "Position - Company",
+    img: "/profile-default-svgrepo-com.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile.svg",
+    quote: "Coming Soon...",
+    name: "Name Lastname",
+    title: "Position - Company",
+    img: "/profile-default-svgrepo-com.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile.svg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile.svg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile.svg",
+    quote: "Coming Soon...",
+    name: "Name Lastname",
+    title: "Position - Company",
+    img: "/profile-default-svgrepo-com.svg",
   },
 ];
 
@@ -216,14 +199,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/doruksavasan/",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
+    img: "/git.svg",
+    link: "https://github.com/DKsavasan",
   },
 ];
