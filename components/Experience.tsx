@@ -20,10 +20,10 @@ const Experience = () => {
             <div
               key={card.id}
               className={`flex ${
-                card.id % 2 === 0 ? "justify-end" : "justify-start"
+                card.id % 2 === 0 ? "md:justify-end" : "md:justify-start"
               }`}
             >
-              <div className={`w-5/12`}>
+              <div className={`w-full md:w-5/12`}>
                 <Button
                   duration={Math.floor(Math.random() * 10000) + 10000}
                   borderRadius="1.75rem"
@@ -78,7 +78,7 @@ const Experience = () => {
                 </Button>
               </div>
               {/* Timeline dot */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange rounded-full mt-6"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange rounded-full mt-6 hidden md:block"></div>
             </div>
           ))}
         </div>

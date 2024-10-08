@@ -3,7 +3,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
-  { name: "Refrences", link: "#refrences" },
+  // { name: "Refrences", link: "#refrences" },
   { name: "Professional Experience", link: "#experience" },
   { name: "Contact Me", link: "#contact" },
 ];
@@ -27,9 +27,9 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I embrace continuous growth and learning, driven by curiosity. I believe success is cultivated in a inclusive and supportive environment, where collaboration flourishes and innovation thrives. With a commitment to personal and collective well-being, I aim to create spaces where creativity and dedication leads to meaningful impact.",
+      "I embrace continuous growth and learning, driven by curiosity. I believe success is cultivated in an inclusive and supportive environment, where collaboration flourishes and innovation thrives. With a commitment to personal and collective well-being, I aim to create spaces where creativity and dedication leads to meaningful impact.",
     description: "What I value",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-3",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -38,24 +38,24 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "I have professional and educational experience in United States, Netherlands, Spain, and Turkey.",
+      "I have professional and educational experience in the United States, Netherlands, Spain, and Turkey.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-3",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 3,
+  //   title: "My tech stack",
+  //   description: "I constantly try to improve",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+  //   imgClassName: "",
+  //   titleClassName: "justify-center",
+  //   img: "",
+  //   spareImg: "",
+  // },
 ];
 
 export const projects = [
@@ -119,7 +119,7 @@ export const workExperience = [
     id: 1,
     title: "Software Engineer Intern",
     companyName: "MadByte Games",
-    date: "Jun 2024 - present",
+    date: "Jun 2024 - Aug 2024",
     location: "Istanbul, Turkey",
     desc: [
       "Built the front and backend of a referral system in ASP.NET Core for a game with over 33 million accounts created",
@@ -146,7 +146,7 @@ export const workExperience = [
     id: 3,
     title: "Software Engineer",
     companyName: "PM Ready Global",
-    date: "Jan 2024 – Jun 2024",
+    date: "Jan 2024 - Jun 2024",
     location: "Boston, MA",
     desc: [
       "Transformed Figma designs into functional React user interfaces, guaranteeing alignment with UI and UX objectives",

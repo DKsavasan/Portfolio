@@ -58,13 +58,13 @@ const data = [
     category: "Mobile App",
     title: "Connections",
     content: <DummyContent />,
-    gitlink: "",
+    gitlink: "https://github.com/DKsavasan/Connections",
   },
   {
     category: "Web Application",
     title: "Real-time Docs",
     content: <DummyContent />,
-    gitlink: "",
+    gitlink: "https://github.com/DKsavasan/RealTimeDocs",
   },
   {
     category: "Website",

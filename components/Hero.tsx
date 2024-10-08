@@ -7,7 +7,7 @@ import { ShootingStars } from "./ui/shooting-stars";
 import { socialMedia } from "@/data";
 
 const Hero = () => {
-  const words = ["Student", "Software Engineer", "Full Stack Developer"];
+  const words = ["Student", "Full Stack Developer", "Computer Enthusiast"];
   return (
     <div className="pb-20 pt-36">
       <ShootingStars

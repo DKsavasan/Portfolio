@@ -268,11 +268,14 @@ export const Card = ({
                 {card.title}
               </motion.p>
               <div className="flex justify-center items-center mt-5">
-                <a href={card.gitlink} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={card.gitlink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub className="text-gray-700 dark:text-white h-10 w-10" />
                 </a>
               </div>
-
 
               {/* <motion.p
                 layoutId={layout ? `title-${card.title}` : undefined}
@@ -325,10 +328,9 @@ export const Card = ({
             >
               {card.title}
             </motion.p>
-            
           </div>
           <div>
-            <h1>Click the Card Reveal to More</h1>
+            <h1>Click to Reveal More</h1>
           </div>
         </div>
       </motion.button>

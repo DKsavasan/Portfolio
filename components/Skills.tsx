@@ -7,7 +7,7 @@ const Skills = () => {
       <h1 className="bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-center tracking-tight text-transparent heading mb-20 pb-5">
         My Technical <span className="text-orange">Skills</span>
       </h1>
-      <div className="flex flex-row justify-between gap-5">
+      <div className="flex flex-col md:flex-row justify-between gap-5">
         <div className="w-full relative max-w-xs">
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-orange to-red-400 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
           <div className="relative shadow-xl bg-black-400 border border-white/[0.1] px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col items-start">
@@ -22,10 +22,8 @@ const Skills = () => {
               <li className="pb-2">Java</li>
               <li className="pb-2">TypeScript</li>
               <li className="pb-2">HTML/CSS</li>
-              <li className="pb-2">C++</li>
               <li className="pb-2">R</li>
               <li className="pb-2">C</li>
-              <li className="pb-2">Assembly</li>
             </ul>
             {/* Meaty part - Meteor effect */}
             <Meteors number={20} />
@@ -44,7 +42,6 @@ const Skills = () => {
               <li className="pb-2">ASP.NET Core</li>
               <li className="pb-2">Next.js</li>
               <li className="pb-2">Express.js</li>
-              <li className="pb-2">Flask</li>
               <li className="pb-2">React Native</li>
               <li className="pb-2">Expo Router</li>
               <li className="pb-2">Async Storage</li>
